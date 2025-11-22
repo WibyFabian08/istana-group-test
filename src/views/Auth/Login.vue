@@ -5,5 +5,5 @@ const userStore = useUserStore();
 </script>
 
 <template>
-  <h5>Login View {{ userStore.user.name }}</h5>
+  <h5 class="text-primary">Login View {{ userStore.user.name }}</h5>
 </template>
