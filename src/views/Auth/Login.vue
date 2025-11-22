@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import { useUserStore } from "@/stores/user";
+
+const userStore = useUserStore();
+</script>
 
 <template>
-  <h5>Login View</h5>
+  <h5>Login View {{ userStore.user.name }}</h5>
 </template>
