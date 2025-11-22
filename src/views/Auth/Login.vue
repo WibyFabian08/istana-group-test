@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <RouterView />
+  <h5>Login View</h5>
 </template>
